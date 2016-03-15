@@ -27,7 +27,7 @@
   	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   	<junit.gen5.version>5.0.0-SNAPSHOT</junit.gen5.version>
   	<junit.version>4.12</junit.version>
-  	<junit.gen5.surefire-provider.version>5.0.0-ALPHA</junit.gen5.surefire-provider.version>
+  	<junit.gen5.surefire-provider.version>5.0.0-SNAPSHOT</junit.gen5.surefire-provider.version>
   </properties>
   
   <dependencies>
