@@ -27,7 +27,7 @@
   	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   	<junit.gen5.version>5.0.0-SNAPSHOT</junit.gen5.version>
   	<junit.version>4.12</junit.version>
-  	<junit.gen5.surefire-provider.version>5.0.0-ALPHA</junit.gen5.surefire-provider.version>
+  	<junit.gen5.surefire-provider.version>5.0.0-SNAPSHOT</junit.gen5.surefire-provider.version>
   </properties>
   
   <dependencies>
@@ -66,6 +66,15 @@
     	<snapshots><enabled>true</enabled><updatePolicy>always</updatePolicy></snapshots>
     </repository>
   </repositories>
+  <pluginRepositories>
+  	<pluginRepository>
+    	<!-- for junit5 -->
+    	<id>snapshots-repo</id>
+    	<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    	<releases><enabled>false</enabled></releases>
+    	<snapshots><enabled>true</enabled><updatePolicy>always</updatePolicy></snapshots>
+  	</pluginRepository>
+  </pluginRepositories>
   
   <build>
         <plugins>
